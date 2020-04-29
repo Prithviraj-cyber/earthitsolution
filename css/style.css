@@ -27,19 +27,16 @@ font-family: 'Courgette', cursive;
 
 .header1
 {
-	height: 45px;
-	background-color: #083aaf;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	height: 100%;
+	background-color: #0366a9;
 	margin: 0;
-	padding: 0 8rem;
 	border-bottom: 1px solid #fff;
 }
 
 .header1 .heading
 {
-	padding-top: 10px;
+	margin-top: 10px;
+	text-align: center;
 }
 
 .header1 .heading i
@@ -51,6 +48,11 @@ font-family: 'Courgette', cursive;
 .header1 .socialicons i
 {
 	padding: 5px;
+}
+
+.header1 .contact
+{
+	text-align: center;
 }
 
 .header1 .contact i
@@ -170,12 +172,12 @@ font-family: 'Courgette', cursive;
 
 .dropdown:hover .nav-link
 {
-	color: #083aaf;
+	color: #0366a9!important;
 }
 
 .dropdown-content a:hover
 {
-	background-color: #083aaf;
+	background-color: #0366a9;
 	color: #fff;
 }
 
@@ -210,7 +212,7 @@ font-family: 'Courgette', cursive;
 
 .slider .carousel-caption p
 {
-	color: #fffa00;
+	color: #00fa0a;
 	font-weight: bold;
 	width: 60%;
 	margin: auto;
@@ -228,7 +230,7 @@ font-family: 'Courgette', cursive;
 	background-color: #ffffff;
 	padding: 8px 30px;
 	display: inline-block;
-	color: #083aaf;
+	color: #0366a9;
 	margin-top: 15px;
 	border-radius: 5px;
 	box-shadow: 1px 3px 5px #000;
@@ -237,7 +239,7 @@ font-family: 'Courgette', cursive;
 .slider .carousel-caption a:hover
 {
 	box-shadow: none;
-	background-color: #083aaf;
+	background-color: #0366a9;
 	color: #fff;
 }
 
@@ -245,7 +247,7 @@ font-family: 'Courgette', cursive;
 /*-------------------------payment-----------------------*/
 .payment
 {
-	background-color: #ffc90e;
+	background-color: #93ce4d;
 	width: 100%;
 	padding: 32px 100px;
 }
@@ -308,48 +310,54 @@ font-family: 'Courgette', cursive;
 {
 	content: '';
 	display: block;
-	background: #ffc90e;
+	background: #93ce4d;
 	height: 3px;
 	width: 150px;
 	margin: 10px auto;
 }
 
-.services-detail ul
+.services-detail
 {
-	margin: 2.5rem 2rem;
+	text-align: center;
+	margin-top: 50px;
 }
 
-.services-detail ul a li
+.services-detail div
 {
-	list-style-type: none;
-	background-color: #000;
-	margin-top: 0.6rem;
-	padding: 10px 30px;
-	font-size: 20px;
-	font-family: 'Rubik',sans-serif;
-	color: #fff;
 	background-color: #083aaf;
+	margin: 10px 30px;
+	padding: 20px 0;
 	border: 1px solid #000;
 }
 
-.services-detail ul a li:hover
+.services-detail div:hover
 {
-	box-shadow: 2px 5px 5px #000;
-	background-color: #ffc90e;
-	color: #000;
-	transition: 0.5s;
+	box-shadow: 1px 5px 5px #000;
+	background-color: #87c837;
+}
+
+.services-detail i
+{
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+.services-detail li
+{
+	font-size: 1.2rem;
+	font-family: 'Noto Serif',sans-serif;
+	color: #fff;
+	margin-top: 10px;
+	list-style-type: none;
 }
 
 /*----------------------------aboutus----------------------------*/
 .about
 {
 	width: 100%;
-	background-image: url(../img/6.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 	padding: 50px 150px;
-	filter: drop-shadow(0);
+	text-align: center;
+	background-color: #e6e6e6;
 }
 
 .about h2
@@ -358,26 +366,68 @@ font-family: 'Courgette', cursive;
 	font-family: 'Arvo',sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	color: #000;
+	color: #0366a9;
 }
 
 .about h2:after
 {
 	content: '';
 	display: block;
-	background: #083aaf;
+	background: #93ce4d;
 	height: 3px;
 	width: 100px;
 	margin: 10px auto;
 }
 
+.about .text
+{
+	margin: 40px 0;
+}
+
 .about .text p
 {
-	margin-top: 40px;
 	font-size: 20px;
-	color: #fff;
+	color: #4d4d4d;
 	text-align: justify;
 	font-family: 'Courgette',cursive;
+	margin-bottom: 40px;
+}
+
+.about .read-more
+{
+	font-size: 22px;
+	font-family: 'Rubik',sans-serif;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #93ce4d;
+	border-radius: 25px;
+}
+
+.about .read-more:hover
+{
+	box-shadow: 2px 5px 5px #000;
+}
+
+.about-detail .about-serv
+{
+	margin: 20px 20px;
+	background-color: #0366a9;
+	box-shadow: 0px 4px 5px #000;
+}
+
+.about-detail .about-serv img
+{
+	width: 100%;
+	height: 35vh;
+}
+
+.about-detail .about-serv h3
+{
+	font-size: 1.2rem;
+	font-family: 'Rubik',sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 25px 0; 
 }
 
 /*-------------------------------products-----------------------*/
@@ -401,7 +451,7 @@ font-family: 'Courgette', cursive;
 {
 	content: '';
 	display: block;
-	background: #ffc90e;
+	background: #93ce4d;
 	height: 3px;
 	width: 150px;
 	margin: 10px auto;
@@ -425,7 +475,7 @@ font-family: 'Courgette', cursive;
 
 .product ul li
 {
-	background-color: #ffc90e;
+	background-color: #93ce4d;
 	margin-top: 5px;
 	list-style-type: none;
 	text-transform: uppercase;
@@ -458,7 +508,7 @@ font-family: 'Courgette', cursive;
 .testimonial h2
 {
 	font-size: 2.5rem;
-	color: #fff;
+	color: #0366a9;
 	font-family: 'Arvo',sans-serif;
 	text-align: center;
 	text-transform: uppercase;
@@ -468,7 +518,7 @@ font-family: 'Courgette', cursive;
 {
 	content: '';
 	display: block;
-	background: #ffc90e;
+	background: #93ce4d;
 	height: 2px;
 	width: 150px;
 	margin: 10px auto;
@@ -523,7 +573,7 @@ font-family: 'Courgette', cursive;
 	margin-bottom: 15px;
 	margin-top: 20px;
 	font-family: 'Lora',sans-serif;
-	color: #ffc90e;
+	color: #93ce4d;
 }
 
 .testimonial-detail  i
@@ -562,7 +612,7 @@ font-family: 'Courgette', cursive;
 .team h2
 {
 	font-size: 3rem;
-	color: #083aaf;
+	color: #0366a9;
 	font-family: 'Arvo',sans-serif;
 	text-align: center;
 	text-transform: uppercase;
@@ -572,7 +622,7 @@ font-family: 'Courgette', cursive;
 {
 	content: '';
 	display: block;
-	background: #ffc90e;
+	background: #93ce4d;
 	height: 3px;
 	width: 150px;
 	margin: 10px auto;
@@ -623,8 +673,8 @@ font-family: 'Courgette', cursive;
 
 .social a i:hover
 {
-	background-color: #ffc90e;
-	color: #083aaf;
+	background-color: #93ce4d;
+	color: #0366a9;
 	border: none;
 }
 
@@ -669,7 +719,7 @@ font-family: 'Courgette', cursive;
 .img-text h5
 {
 	font-size: 1.1rem;
-	color: #ffc90e;
+	color: #93ce4d;
 	font-family: 'Arvo',sans-serif;
 }
 
@@ -722,7 +772,7 @@ font-family: 'Courgette', cursive;
 
 .it .works .work h3
 {
-	color: #ffc90e;
+	color: #93ce4d;
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-family: 'Rubik',sans-serif;
@@ -758,7 +808,7 @@ font-family: 'Courgette', cursive;
 {
 	content: '';
 	display: block;
-	background: #ffc90e;
+	background: #93ce4d;
 	height: 2px;
 	width: 100px;
 	margin: 10px 0;
@@ -784,12 +834,12 @@ font-family: 'Courgette', cursive;
 .heading .links ul li i
 {
 	padding-right: 10px;
-	color: #083aaf;
+	color: #0366a9;
 }
 
 .heading .links ul li:hover
 {
-	color: #ffc90e;
+	color: #93ce4d;
 }
 
 .heading .contact-info
@@ -799,7 +849,7 @@ font-family: 'Courgette', cursive;
 
 .heading .contact-info ul li
 {
-	color: #ffc90e;
+	color: #93ce4d;
 	list-style-type: none;
 	font-size: 1.1rem;
 	font-family: 'Noto Serif',sans-serif;
@@ -827,8 +877,8 @@ font-family: 'Courgette', cursive;
 
 .heading .social-media a i:hover
 {
-	background-color: #ffc90e;
-	color: #fff;
+	background-color: #93ce4d;
+	color: #000;
 	border: none;
 }
 
@@ -840,7 +890,7 @@ font-family: 'Courgette', cursive;
 
 .rights p
 {
-	color: #ffc90e;
+	color: #93ce4d;
 	margin-top: 10px;
 	font-size: 15px;
 	font-family: 'Arimo',sans-serif;
