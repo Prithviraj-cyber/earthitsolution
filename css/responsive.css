@@ -2,26 +2,41 @@
 {
 
 	/*-----------------------header--------------------*/
+	.header1
+	{
+		padding: 0;
+		height: 100%;
+		display: inline-flex;
+		flex-direction: column;
+		display: none;
+		opacity: 0;
+	}
+
+	.header1 .heading
+	{
+		display: inline-flex;
+		flex-direction: row;
+	}
+
 	.header1 .heading i
 	{
-		margin: 0 3px;
+		margin: 0 4px;
 	}
 
 	.header1 .socialicons i
 	{
-		padding: 2px;
+		padding: 4px;
 	}
 
 	.header1 .contact i
 	{
-		font-size: 9px;
 		padding: 0;
-		margin-left: 5px;
+		margin-left: 10px;
 	}
 
 	.header1 .contact p
 	{
-		font-size: 10px;
+		font-size: 14px;
 	}
 
 	.header1 .socialicons i:hover
@@ -31,7 +46,8 @@
 
 	.header1 .contact a
 	{
-		padding: 2px;
+		margin: 0 0 0 6px;
+		padding: 4px 10px;
 	}
 
 	.header1 .contact a i
@@ -140,46 +156,42 @@
 	.services h2
 	{
 		font-size: 1.7rem;
-		margin-bottom: 30px;
 	}
 
 	.services h2:after
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
 	}
 
-	.services-detail
+	.services-detail ul
 	{
-		text-align: center;
-		margin-top: -10px;
+		margin: 0.5rem 0.3rem;
 	}
 
-	.services-detail div
+	.services-detail ul a li
 	{
-		margin: 10px 30px;
-		padding: 15px 0;
+		margin-top: 0.4rem;
+		padding: 5px 20px;
+		font-size: 16px;
 	}
 
-	.services-detail i
+	.services-detail ul a li:hover
 	{
-		font-size: 2.5rem;
-	}
-
-	.services-detail li
-	{
-		font-size: 1rem;
+		box-shadow: 1px 2px 2px #000;
+		background-color: #ffc90e;
+		color: #000;
 	}
 
 	/*----------------------------aboutus----------------------------*/
 	.about
 	{
 		width: 100%;
-		padding: 25px 15px;
+		padding: 20px 10px;
 	}
 
 	.about h2
@@ -197,27 +209,11 @@
 		margin: 10px auto;
 	}
 
-	.about .text
-	{
-		margin: 20px 0;
-	}
-
 	.about .text p
 	{
+		margin-top: 20px;
 		font-size: 17px;
-		margin-bottom: 15px;
 	}
-
-	.about .read-more
-	{
-		font-size: 18px;
-	}
-
-	.about-detail .about-serv
-	{
-		margin: 15px 10px;
-	}
-
 
 	/*-------------------------------products-----------------------*/
 	.products
@@ -240,7 +236,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -283,7 +279,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -360,7 +356,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -453,7 +449,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 1.5px;
 		width: 80px;
 		margin: 8px 0;
@@ -482,17 +478,6 @@
 		margin-right: 5px;
 	}
 
-	.visitor-counter h1
-	{
-		font-size: 2.1rem!important;
-	}
-
-	.visitor-counter p
-	{
-		font-size: 10px!important;
-		letter-spacing: 0px;
-	}
-
 	.rights
 	{
 		padding: 5px 20px;
@@ -510,12 +495,17 @@
 @media only screen and (min-width: 768px) and  (max-width: 991px)
 {
 
-	/*-----------------------header--------------------*/
+		/*-----------------------header--------------------*/
 	.header1
 	{
 		padding: 0;
 		height: 100%;
-		width: 100%!important;
+	}
+
+	.header1 .heading
+	{
+		display: inline-flex;
+		flex-direction: row;
 	}
 
 	.header1 .heading i
@@ -525,7 +515,7 @@
 
 	.header1 .socialicons i
 	{
-		padding: 0 4px;
+		padding: 4px;
 	}
 
 	.header1 .contact i
@@ -536,7 +526,7 @@
 
 	.header1 .contact p
 	{
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.header1 .socialicons i:hover
@@ -663,39 +653,36 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
 	}
 
-	.services-detail
+	.services-detail ul
 	{
-		text-align: center;
-		margin-top: 20px;
+		margin: 1.5rem 0.3rem;
 	}
 
-	.services-detail div
+	.services-detail ul a li
 	{
-		margin: 10px 5px;
-		padding: 15px 0px;
+		margin-top: 0.4rem;
+		padding: 5px 20px;
+		font-size: 16px;
 	}
 
-	.services-detail i
+	.services-detail ul a li:hover
 	{
-		font-size: 2.5rem;
-	}
-
-	.services-detail li
-	{
-		font-size: 1rem;
+		box-shadow: 1px 2px 2px #000;
+		background-color: #ffc90e;
+		color: #000;
 	}
 
 	/*----------------------------aboutus----------------------------*/
 	.about
 	{
 		width: 100%;
-		padding: 30px 20px;
+		padding: 30px 10px;
 	}
 
 	.about h2
@@ -707,44 +694,17 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #083aaf;
 		height: 2px;
 		width: 80px;
 		margin: 10px auto;
 	}
 
-	.about .text
-	{
-		margin: 20px 0;
-	}
-
 	.about .text p
 	{
+		margin-top: 25px;
 		font-size: 17px;
-		margin-bottom: 15px;
 	}
-
-	.about .read-more
-	{
-		font-size: 18px;
-	}
-
-	.about-detail .about-serv
-	{
-		margin: 15px 0px;
-	}
-
-	.about-detail .about-serv img
-	{
-		height: 29vh;
-	}
-
-	.about-detail .about-serv h3
-	{
-		font-size: 1rem;
-		padding: 15px 0; 
-	}
-
 
 	/*-------------------------------products-----------------------*/
 	.products
@@ -767,7 +727,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -810,7 +770,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -887,7 +847,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -1002,7 +962,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 1.5px;
 		width: 80px;
 		margin: 8px 0;
@@ -1031,17 +991,6 @@
 		margin-right: 2px;
 	}
 
-	.visitor-counter h1
-	{
-		font-size: 2.1rem!important;
-	}
-
-	.visitor-counter p
-	{
-		font-size: 8px!important;
-		letter-spacing: 0px;
-	}
-
 	.rights
 	{
 		padding: 5px 40px;
@@ -1064,6 +1013,12 @@
 	{
 		padding: 0 20px;
 		height: 100%;
+	}
+
+	.header1 .heading
+	{
+		display: inline-flex;
+		flex-direction: row;
 	}
 
 	.header1 .heading i
@@ -1229,32 +1184,29 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
 	}
 
-	.services-detail
+	.services-detail ul
 	{
-		text-align: center;
-		margin-top: 20px;
+		margin: 1.6rem 0.3rem;
 	}
 
-	.services-detail div
+	.services-detail ul a li
 	{
-		margin: 10px 20px;
-		padding: 15px 0px;
+		margin-top: 0.4rem;
+		padding: 5px 20px;
+		font-size: 16px;
 	}
 
-	.services-detail i
+	.services-detail ul a li:hover
 	{
-		font-size: 2.5rem;
-	}
-
-	.services-detail li
-	{
-		font-size: 1rem;
+		box-shadow: 1px 2px 2px #000;
+		background-color: #ffc90e;
+		color: #000;
 	}
 
 	/*----------------------------aboutus----------------------------*/
@@ -1273,39 +1225,17 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
-		height: 2.5px;
+		background: #083aaf;
+		height: 2px;
 		width: 80px;
 		margin: 10px auto;
 	}
 
-	.about .text
-	{
-		margin: 20px 0;
-	}
-
 	.about .text p
 	{
+		margin-top: 25px;
 		font-size: 17px;
-		margin-bottom: 20px;
 	}
-
-	.about .read-more
-	{
-		font-size: 18px;
-	}
-
-	.about-detail .about-serv
-	{
-		margin: 15px 10px;
-	}
-
-	.about-detail .about-serv h3
-	{
-		font-size: 1.1rem;
-		padding: 20px 0; 
-	}
-
 
 	/*-------------------------------products-----------------------*/
 	.products
@@ -1328,7 +1258,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -1371,7 +1301,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -1448,7 +1378,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -1563,7 +1493,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 1.5px;
 		width: 80px;
 		margin: 8px 0;
@@ -1614,6 +1544,12 @@
 	{
 		padding: 0 20px;
 		height: 100%;
+	}
+
+	.header1 .heading
+	{
+		display: inline-flex;
+		flex-direction: row;
 	}
 
 	.header1 .heading i
@@ -1767,7 +1703,7 @@
 	.services
 	{
 		width: 100%;
-		padding: 38px 100px;
+		padding: 38px 10px;
 	}
 
 	.services h2
@@ -1779,39 +1715,36 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
 	}
 
-	.services-detail
+	.services-detail ul
 	{
-		text-align: center;
-		margin-top: 20px;
+		margin: 1.6rem 0.3rem;
 	}
 
-	.services-detail div
+	.services-detail ul a li
 	{
-		margin: 10px 40px;
-		padding: 15px 0px;
+		margin-top: 0.4rem;
+		padding: 5px 20px;
+		font-size: 20px;
 	}
 
-	.services-detail i
+	.services-detail ul a li:hover
 	{
-		font-size: 2.5rem;
-	}
-
-	.services-detail li
-	{
-		font-size: 1.2rem;
+		box-shadow: 1px 2px 2px #000;
+		background-color: #ffc90e;
+		color: #000;
 	}
 
 	/*----------------------------aboutus----------------------------*/
 	.about
 	{
 		width: 100%;
-		padding: 30px 150px;
+		padding: 30px 20px;
 	}
 
 	.about h2
@@ -1823,44 +1756,22 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
-		height: 3px;
+		background: #083aaf;
+		height: 2px;
 		width: 80px;
 		margin: 10px auto;
 	}
 
-	.about .text
-	{
-		margin: 25px 0;
-	}
-
 	.about .text p
 	{
+		margin-top: 25px;
 		font-size: 20px;
-		margin-bottom: 20px;
 	}
-
-	.about .read-more
-	{
-		font-size: 25px;
-	}
-
-	.about-detail .about-serv
-	{
-		margin: 20px 10px;
-	}
-
-	.about-detail .about-serv h3
-	{
-		font-size: 1.2rem;
-		padding: 22px 0; 
-	}
-
 
 	/*-------------------------------products-----------------------*/
 	.products
 	{
-		padding: 35px 100px;
+		padding: 35px 10px;
 		width: 100%;
 	}
 
@@ -1878,7 +1789,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -1921,7 +1832,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -1998,7 +1909,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 2px;
 		width: 100px;
 		margin: 10px auto;
@@ -2113,7 +2024,7 @@
 	{
 		content: '';
 		display: block;
-		background: #93ce4d;
+		background: #ffc90e;
 		height: 1.5px;
 		width: 80px;
 		margin: 8px 0;
