@@ -1,0 +1,172 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*------------------------------secure-line----------------------*/
+.secure-line
+{
+	text-align: center;
+	margin: 15px 0 25px 0;
+}
+
+.secure-line p
+{
+	font-size: 1.1rem;
+	font-family: 'Rubik',sans-serif;
+	color: #999999;
+}
+
+.secure-line p i
+{
+	font-size: 1.3rem;
+	padding: 0 10px;
+}
+
+/*------------------------------select box--------------------------*/
+.select-service
+{
+	text-align: center;
+}
+
+.select-service .dropdown
+{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 10px;
+}
+
+.select-service .dropdown .dropbtn
+{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+	padding: 12px 30px;
+	font-family: 'Rubik',sans-serif;
+	border: none;
+	background-color: #fff;
+	box-shadow: 0px 1px 5px #4d4d4d;
+}
+
+.select-service .dropdown-content
+{
+	width: 100%;
+}
+
+.select-service .dropdown-content a
+{
+	text-align: left;
+	font-family: 'Rubik',sans-serif;
+	font-size: 1rem;
+	padding: 12px 30px;
+}
+
+
+/*--------------------------------services-----------------------------*/
+.service
+{
+	margin-top: 50px;
+}
+
+.service-box
+{
+	box-shadow: 0px 2px 2px #4d4d4d;
+	padding: 15px;
+	margin: 40px 0;
+}
+
+.service .service-1 img
+{
+	width: 100%;
+}
+
+.service-1 ul
+{
+	margin: 0;
+	list-style-type: none;
+}
+
+.service ul li
+{
+	color: #212121;
+	font-family: 'Rubik',sans-serif;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.service ul li i
+{
+	padding: 0px;
+	color: #212121;
+}
+
+.service-2
+{
+	text-align: center;
+}
+
+.service-2 h4
+{
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-family: 'Arvo',sans-serif;
+	margin-top: 10px;
+	color: #0366a9;
+	letter-spacing: 1px;
+}
+
+.service-2 p
+{
+	font-size: 1rem;
+	font-family: 'Noto Serif',sans-serif;
+	color: #4d4d4d;
+	text-align: justify;
+	margin: 10px;
+}
+
+.service-2 .service-link
+{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.service-2 .service-link a
+{
+	display: inline-block;
+	background-color: #0366a9;
+	color: #fff;
+	margin: 10px 20px;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	text-align: center;
+	font-family: 'Rubik',sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	box-shadow: 0px 2px 2px #000;
+	border: 1px solid #0366a9;
+	border-radius: 3px;
+}
+
+.service-2 .service-link a:hover
+{
+	color: #000;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.service-2 .service-link .l-2
+{
+	background-color: #93ce4d;
+	border: 1px solid #93ce4d;
+}
+
+.service-link a i
+{
+	margin: 1px 5px;
+}
+

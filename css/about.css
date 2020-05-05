@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.about-us
+{
+	padding: 50px 0;
+}
+
+.about-us h2
+{
+	font-size: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo',sans-serif;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+}
+
+.about-us h2:after
+{
+	content: '';
+	display: block;
+	background: #93ce4d;
+	height: 3px;
+	width: 100px;
+	margin: 10px auto;
+}
+
+.about-us p
+{
+	font-size: 1rem;
+	font-family: 'Noto Serif',sans-serif;
+	color: #4d4d4d;
+	text-align: justify;
+	margin-top: 30px;
+}
+
+.about-detail
+{
+	padding-bottom: 40px;
+}
+
+.about-services
+{
+	margin-left: 25%;
+}
+
+.about-services h4
+{
+	background-color: #0366a9;
+	font-size: 1.8rem;
+	font-family: 'Noto Serif',sans-serif;
+	color: #fff;
+	margin-bottom: 20px;
+	width: 80%;
+	padding: 5px 20px;
+}
+
+.about-services h4 i
+{
+	margin-left: 20px;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.about-services ul li
+{
+	list-style-type: none;
+	font-size: 1rem;
+	font-family: 'Rubik',sans-serif;
+	letter-spacing: 0.5px;
+	margin-top: 5px;
+	color: #4d4d4d;
+	text-transform: uppercase;
+}
+
+.about-services ul a li:hover
+{
+	color: #93ce4d!important;
+}
+
+.about-services ul li i
+{
+	margin-right: 10px;
+	color: #0366a9;
+}
+
+@media only screen and (max-width: 767px)
+{
+
+	.about-us
+	{
+		padding: 40px 0;
+	}
+
+	.about-us h2
+	{
+		font-size: 2.5rem;
+	}
+
+	.about-us h2:after
+	{
+		content: '';
+		display: block;
+		background: #93ce4d;
+		height: 2px;
+		width: 80px;
+		margin: 10px auto;
+	}
+
+	.about-us p
+	{
+		font-size: 0.9rem;
+		margin-top: 20px;
+	}
+
+	.about-services
+	{
+		margin-left: 1%;
+	}
+
+	.about-services h4
+	{
+		font-size: 1.5rem;
+		width: 80%;
+	}
+
+	.about-services ul li
+	{
+		font-size: 0.9rem;
+		letter-spacing: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and  (max-width: 991px)
+{
+
+	.about-us
+	{
+		padding: 40px 0;
+	}
+
+	.about-us h2
+	{
+		font-size: 2.5rem;
+	}
+
+	.about-us h2:after
+	{
+		content: '';
+		display: block;
+		background: #93ce4d;
+		height: 2px;
+		width: 80px;
+		margin: 10px auto;
+	}
+
+	.about-us p
+	{
+		font-size: 0.9rem;
+		margin-top: 20px;
+	}
+
+	.about-services
+	{
+		margin-left: 1%;
+	}
+
+	.about-services h4
+	{
+		font-size: 1.5rem;
+		width: 80%;
+	}
+
+	.about-services ul li
+	{
+		font-size: 0.9rem;
+		letter-spacing: 0px;
+	}
+	
+}
