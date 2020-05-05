@@ -8,10 +8,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!------------------------bootstrap------------------------------------------>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<!-------------------------------font-awsome------------------------------->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Arvo|Girassol|Lora|Noto+Serif|Rubik&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Arimo|Courgette&display=swap" rel="stylesheet">
+
+	<!--------------------------------google-font------------------------------>
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Girassol|Courgette|Noto+Serif|Rubik&display=swap" rel="stylesheet">
+
+	<!-------------------------------------animate.css---------------------------->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -19,87 +25,11 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
+
+<?php include'header.php';?>
+
 <body>
 
-<!----------------------------------------header------------------------>
-	<header class="header">
-		<div class="container-fluid header1">
-			<div class="row">
-				<div class="col-md-6 col-sm-12">
-					<div class="socialicons heading">
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-instagram"></i></a>
-						<a href=""><i class="fa fa-youtube-play"></i></a>
-						<a href=""><i class="fa fa-google-plus"></i></a>
-						<a href=""><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12">
-					<div class="contact heading">
-						<p><i class="fa fa-phone-square"></i> 7819008881 <i class="fa fa-envelope"></i> info@earthitsolutions.in
-						<a href=""><i class="fa fa-video-camera"></i> Events</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	
-	<!------------------------------------navbar----------------------->	
-		<section id="navbar">
-			<nav class="navbar navbar-expand-lg navbar-light">
-			  	<a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
-			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    	<span class="navbar-toggler-icon"></span>
-			  	</button>
-
-			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    	<ul class="navbar-nav ml-auto">
-			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">ABOUT US</a>
-			      		</li>
-			      		<li class="nav-item dropdown">
-			        		<a class="nav-link dropbtn">CUSTOMER SUPPORT<i class="fa fa-chevron-down"></i></a>
-							<div class="dropdown-content">
-								<a href="#">Send Document</a>
-								<a href="#">Customer Feedback</a>
-								<a href="#">Complain</a>
-							</div>
-			      		</li>
-			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">CREATE A QUOTATION</a>
-			      		</li>
-			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">APPOINTMENT</a>
-			      		</li>
-			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">CONTACT US</a>
-			      		</li>
-			      		<li class="nav-item">
-			        		<a class="nav-link" href="#">CAREERS</a>
-			      		</li>
-			      		<li class="nav-item dropdown">
-			        		<a class="nav-link dropbtn">QUOTATION DISPLAY<i class="fa fa-chevron-down"></i></a>
-							<div class="dropdown-content">
-								<a href="#">Website Display</a>
-								<a href="#">SMS Display </a>
-								<a href="#">Software Demo</a>
-								<a href="#">Digital Marketing</a>
-								<a href="#">App Devlopment</a>
-							</div>
-			      		</li>
-			      		<li class="nav-item dropdown">
-			        		<a class="nav-link dropbtn">ACCOUNT<i class="fa fa-user-plus"></i></a>
-			        		<div class="dropdown-content">
-								<a href="#">Sign Up</a>
-								<a href="#">Login</a>
-								<a href="#">Admin</a>
-							</div>
-			      		</li>
-			    	</ul>
-			  	</div>
-			</nav>
-		</section>
 
 <!--------------------------------slider----------------------------->
 	<section id="slider">
@@ -186,7 +116,7 @@
 			<h2>our services</h2>
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
-					<div class="services-detail" data-aos="fade-right"  data-aos-delay="160">
+					<div class="services-detail" data-aos="fade-right"  data-aos-delay="200">
 						<ul>
 							<a href="">
 								<div>
@@ -246,7 +176,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-					<div class="services-detail" data-aos="fade-left"  data-aos-delay="160">
+					<div class="services-detail" data-aos="fade-left"  data-aos-delay="200">
 						<ul>
 							<a href="">
 								<div>
@@ -280,7 +210,7 @@
 
 	</section>
 
-	<!--------------------------------aoutus----------------------->
+	<!--------------------------------aboutus----------------------->
 	<section id="about">
 		
 		<div class="about">
@@ -289,7 +219,7 @@
 				<p>
 					EARTH IT SOLUTIONS is India`s one of the biggest an well-known software company situated in Varanasi India. The company was founded in 2008 in the holy city of Varanasi India for proving the Excellent solutions for IT services such as Web and Softwares. The company has dedicated and team to provide the best result to our clients. We are dedicated to helping our client tp connect with their customers to sell their ideas, products, and services online throughout the world.
 				</p>
-				<a class="read-more" href="">Read More...</a>
+				<a class="read-more" href="about.php">Read More...</a>
 			</div>
 			<div class="container about-detail">
 				<div class="row">
@@ -297,7 +227,7 @@
 						<a href="">
 							<div class="about-serv">
 								<img src="img/3.jpg">
-								<h3>Web Development</h3>
+								<h3>Domain & Web Hosting</h3>
 							</div>
 						</a>
 					</div>
@@ -305,7 +235,7 @@
 						<a href="">
 							<div class="about-serv">
 								<img src="img/3.jpg">
-								<h3>Web Development</h3>
+								<h3>Bulk SMS</h3>
 							</div>
 						</a>
 					</div>
@@ -313,7 +243,7 @@
 						<a href="">
 							<div class="about-serv">
 								<img src="img/3.jpg">
-								<h3>Web Development</h3>
+								<h3>Software Development</h3>
 							</div>
 						</a>
 					</div>
@@ -337,19 +267,22 @@
 				<div class="col-md-6 col-sm-12">
 					<div class="product" data-aos="fade-right"  data-aos-delay="200">
 						<ul>
-							<li><i class="fa fa-angle-double-right"></i>School Management Software</li>
-							<li><i class="fa fa-angle-double-right"></i>Online Examination Software</li>
-							<li><i class="fa fa-angle-double-right"></i>Hospital Management Software</li>
-							<li><i class="fa fa-angle-double-right"></i>Hotel Management Software</li>
-							<li><i class="fa fa-angle-double-right"></i>Accounting Software</li>
-							<li><i class="fa fa-angle-double-right"></i>Medical Software</li>
-							<li><i class="fa fa-angle-double-right"></i>Web Development</li>
-							<li><i class="fa fa-angle-double-right"></i>App Development</li>
-							<li><i class="fa fa-angle-double-right"></i>Bulk sms</li>
-							<li><i class="fa fa-angle-double-right"></i>SEO Services</li>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>School Management Software</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Online Examination Software</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Hospital Management Software</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Hotel Management Software</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Accounting Software</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Medical Software</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Web Development</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>App Development</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>Bulk sms</li></a>
+							<a href=""><li><i class="fa fa-angle-double-right"></i>SEO Services</li></a>
 						</ul>
 					</div>
 				</div>
+			</div>
+			<div class="product-more">
+				<a href="products.php">Check More...</a>
 			</div>
 		</div>
 
@@ -500,16 +433,16 @@
 				<h2 data-aos="fade-left"  data-aos-delay="250">Awesome facts</h2>
 			</div>
 			<div class="works">
-				<div class="work" data-aos="zoom-in"  data-aos-delay="350">
-					<h3>100+</h3>
+				<div class="work">
+					<h3><span class="counter">700</span><span>+</span></h3>
 					<p>Project Completed</p>
 				</div>
-				<div class="work" data-aos="zoom-in"  data-aos-delay="450">
-					<h3>100+</h3>
+				<div class="work">
+					<h3><span class="counter">500</span><span>+</span></h3>
 					<p>Satisfied Clients</p>
 				</div>
-				<div class="work" data-aos="zoom-in"  data-aos-delay="550">
-					<h3>100+</h3>
+				<div class="work">
+					<h3><span class="counter">50</span><span>+</span></h3>
 					<p>professional Developer</p>
 				</div>
 			</div>
@@ -517,78 +450,21 @@
 	</section>
 
 	<!------------------------------------footer------------------------>
-	<footer>
-		
-		<div class="container-fluid footer">
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<div class="heading">
-						<h3 data-aos="zoom-in"  data-aos-delay="150">Quick links</h3>
-						<div class="links" data-aos="fade-down"  data-aos-delay="280">
-							<ul>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Appointment</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Customer Support</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>SSL Certificate</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Payment Gateway</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>FAQ</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Privacy Policy</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Terms Of Use</li></a>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<div class="heading">
-					    <h3 data-aos="zoom-in"  data-aos-delay="150">Services</h3>
-						<div class="links" data-aos="fade-down"  data-aos-delay="280">
-							<ul>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Web Development</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Software Development</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>SEO Services</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Bulk sms</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Email Marketing</li></a>
-								<a href=""><li><i class="fa fa-angle-double-right"></i>Whatsapp Marketing</li></a>
-							</ul>
-						</div>
-					</div>	
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<div class="heading">
-						<h3 data-aos="zoom-in"  data-aos-delay="150">Contact Info</h3>
-						<div class="contact-info" data-aos="fade-left"  data-aos-delay="380">
-							<ul>
-								<li>Address : <p>S.1/.35.H.2 CHUPPEYPUR CENTRAIL JAIL ROAD NEAR AWADH
-								 APARTMENT SHIVPUR</p></li>
-								 <li>Phone : <p>+91-7619008882</p></li>
-								 <li>E-mail : <p>info@earthitsolutions.in</p></li>
-							</ul>
-						</div>
-						<div class="social-media" data-aos="fade-left"  data-aos-delay="480">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-youtube-play"></i></a>
-							<a href=""><i class="fa fa-google-plus"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="rights">
-			<p>© 2017 Earth IT Solutions. All rights reserved | Design by Earth IT Solutions</p>
-		</div>
 
-	</footer>
+	<?php include'footer.php';?>
 
-
-
-
-<!----------------------------script-------------------------------->
+	<!----------------------------script-------------------------------->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+	<!----------------------------animateonscroll------------------------------->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<!--------------------------------counter----------------------->
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 
 	<script type="text/javascript" src="js/main.js"></script>
 

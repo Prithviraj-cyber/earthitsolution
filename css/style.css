@@ -8,12 +8,9 @@ a{
 }
 
 /*
-font-family: 'Lora', serif;
 font-family: 'Rubik', sans-serif;
-font-family: 'Girassol', cursive;
-font-family: 'Noto Serif', serif;
 font-family: 'Arvo', serif;
-font-family: 'Arimo', sans-serif;
+font-family: 'Noto Serif', sans-serif;
 font-family: 'Courgette', cursive;
 */
 
@@ -64,7 +61,7 @@ font-family: 'Courgette', cursive;
 .header1 .contact p
 {
 	color: #fff;
-	font-family: 'Lora', serif;
+	font-family: 'Noto Serif', serif;
 
 }
 
@@ -157,7 +154,7 @@ font-family: 'Courgette', cursive;
 .dropdown-content a
 {
 	font-size: 14px;
-	font-family: 'Lora', sans-serif;
+	font-family: 'Noto Serif', sans-serif;
   	color: #000;
   	padding: 15px 30px;
   	text-decoration: none;
@@ -218,7 +215,7 @@ font-family: 'Courgette', cursive;
 	margin: auto;
 	font-size: 30px;
 	line-height: 1.9;
-	font-family: 'Courgette',sans-serif;
+	font-family: 'Rubik',sans-serif;
 }
 
 .slider .carousel-caption a
@@ -258,7 +255,7 @@ font-family: 'Courgette', cursive;
 	font-weight: bolder;
 	letter-spacing: 2px;
 	color: #fff;
-	font-family: 'Noto Serif',sans-serif;
+	font-family: 'Arvo',sans-serif;
 }
 
 .payment .paynow
@@ -274,7 +271,7 @@ font-family: 'Courgette', cursive;
 	font-size: 20px;
 	color: #000000;
 	font-weight: bolder;
-	font-family: 'Lora',sans-serif;
+	font-family: 'Noto Serif',sans-serif;
 	background-color: #fff;
 	padding: 10px 50px;
 	box-shadow: 0px 4px 3px #000;
@@ -389,7 +386,7 @@ font-family: 'Courgette', cursive;
 	font-size: 20px;
 	color: #4d4d4d;
 	text-align: justify;
-	font-family: 'Courgette',cursive;
+	font-family: 'Noto Serif',cursive;
 	margin-bottom: 40px;
 }
 
@@ -400,12 +397,13 @@ font-family: 'Courgette', cursive;
 	padding: 10px 30px;
 	color: #fff;
 	background-color: #93ce4d;
-	border-radius: 25px;
+	box-shadow: 2px 5px 5px #000;
 }
 
 .about .read-more:hover
 {
-	box-shadow: 2px 5px 5px #000;
+	box-shadow: none;
+	color: #000;
 }
 
 .about-detail .about-serv
@@ -423,7 +421,7 @@ font-family: 'Courgette', cursive;
 
 .about-detail .about-serv h3
 {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-family: 'Rubik',sans-serif;
 	color: #fff;
 	text-transform: uppercase;
@@ -494,6 +492,27 @@ font-family: 'Courgette', cursive;
 .product ul li:hover
 {
 	color: #fff;
+}
+
+.products .product-more
+{
+	text-align: center;
+}
+
+.products .product-more a
+{
+	font-size: 22px;
+	font-family: 'Rubik',sans-serif;
+	padding: 10px 50px;
+	background-color: #0366a9;
+	color: #fff;
+	box-shadow: 2px 5px 5px #000;
+}
+
+.products .product-more a:hover
+{
+	box-shadow: none;
+	color: #000;
 }
 
 /*-------------------------testimonial-----------------------*/
@@ -572,7 +591,7 @@ font-family: 'Courgette', cursive;
 	font-size: 21px;
 	margin-bottom: 15px;
 	margin-top: 20px;
-	font-family: 'Lora',sans-serif;
+	font-family: 'Noto Serif',sans-serif;
 	color: #93ce4d;
 }
 
@@ -743,7 +762,7 @@ font-family: 'Courgette', cursive;
 	color: #fff;
 	font-size: 28px;
 	text-transform: uppercase;
-	font-family: 'Lora',sans-serif;
+	font-family: 'Noto Serif',sans-serif;
 	margin: 0;
 }
 
@@ -786,14 +805,13 @@ font-family: 'Courgette', cursive;
 	font-family: 'Rubik',sans-serif;
 }
 
-
 /*-------------------------------footer-----------------------*/
 .footer
 {
 	width: 100%;
 	height: 100%;
 	background-color: #1a1a1a;
-	padding: 55px 200px;
+	padding: 55px 200px 30px 200px;
 }
 
 .heading h3
@@ -882,6 +900,35 @@ font-family: 'Courgette', cursive;
 	border: none;
 }
 
+.footer .visitor
+{
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.visitor-counter h1
+{
+	display: inline-flex;
+	font-size: 2.5rem;
+	color: #0366a9;
+	font-family: 'Noto Serif',sans-serif;
+}
+
+.visitor-counter p
+{
+	padding: 0 15px;
+	width: 100%;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Rubik',sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
 .rights
 {
 	background-color: #000;
@@ -893,6 +940,6 @@ font-family: 'Courgette', cursive;
 	color: #93ce4d;
 	margin-top: 10px;
 	font-size: 15px;
-	font-family: 'Arimo',sans-serif;
+	font-family: 'Noto Serif',sans-serif;
 }
 
